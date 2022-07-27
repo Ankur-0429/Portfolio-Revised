@@ -20,7 +20,7 @@ const Contact = () => {
   const [ifload, setIfLoad] = useState(false);
   const [ifSuccess, setIfSuccess] = useState(true);
 
-  const [ifCopy, setIfCopy] = useState(true);
+  const [ifCopy, setIfCopy] = useState(false);
 
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
