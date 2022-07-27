@@ -14,7 +14,10 @@ import Typography from '@mui/material/Typography';
 
 const TimeLine = () => {
   return (
-    <Timeline position="alternate">
+    <Timeline position="alternate" style={{backgroundColor: "#FAF9F6", borderRadius: 10, padding: 10, marginTop: 20}}>
+      <div className='absolute'>
+        TimeLine
+      </div>
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
