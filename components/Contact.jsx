@@ -125,7 +125,7 @@ const Contact = () => {
                 onCopy={() => {
                   setIfCopy(true);
                 }}>
-                <button className="w-full py-3">Copy Email</button>
+                <button className="w-full py-3 mt-5">Copy Email</button>
               </CopyToClipboard>
             </div>
           </div>
